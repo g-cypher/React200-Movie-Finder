@@ -29,14 +29,14 @@ class MovieDetailContainer extends React.Component {
                                 Movie Details
                             </div>
                             <div className='card-body'>
-                                <h4>{ Title }</h4>
+                                <h3>{ Title }</h3>
                                 <span>{ Year }    </span>
                                 <span>{ Runtime }    </span>
                                 <span>{ Genre }    </span>
-                                <h5>{ Plot }</h5>
-                                <h5>{ Awards }</h5>
-                                <h5>Metascore: { Metascore }</h5>
-                                <h5>IMDB: { imdbRating }</h5>
+                                <h6>{ Plot }</h6>
+                                <h6>{ Awards }</h6>
+                                <h6>Metascore: { Metascore }</h6>
+                                <h6>IMDB: { imdbRating }</h6>
                                 <Link to={ '/' } className='btn btn-primary float-right'>Go back</Link>
                             </div>
                         </div>

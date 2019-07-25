@@ -49,7 +49,8 @@ render() {
                                 <h3>{ film.Title }</h3>
                                 <h5>{ film.Year }</h5>
                                 <hr />
-                                <Link to={ `/movie/${film.imdbID}` } className='btn btn-primary float-right'>More Information</Link>
+                                <h5 id='filmType'>{ film.Type }</h5>
+                                <Link to={ `/movie/${film.imdbID}` } className='btn btn-primary align-self-end'>More Information</Link>
                             </div>
                         </div>
                     </div>
